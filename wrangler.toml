@@ -3,12 +3,12 @@ name = "my-worker"
 type = "javascript"
 
 account_id = "487c400de51be67bf665b490df922839"
-workers_dev = true
-route = ""
-zone_id = ""
 compatibility_date = "2021-11-04"
-
+# route = "dev.example.com/*"
+workers_dev = false
+# zone_id = "my-zone-id"
 
 kv_namespaces = [
-    { binding = "MY_KV", preview_id = "f1266aef69fa4e079f04c162906b4e37", id = "7ef9ab54f2da42c6bf458838cb01f286" }
+#   { binding = "STORE", preview_id = "0d0f483d7a794dfe88e65c37326b85e4", id = "d8bfe972e3de4114bfcac27857d03159" }
+  { binding = "STORED", id = "8f85ae1312af4597a31eac4a27e19f63" }
 ]
